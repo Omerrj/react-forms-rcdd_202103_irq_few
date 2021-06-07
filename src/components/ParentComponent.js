@@ -9,10 +9,7 @@ export default function() {
     lastName: "",
   }
 )
-  state = {
-    firstName: "",
-    lastName: "",
-  }
+
 
   handleChange = event => {
     this.setState({
