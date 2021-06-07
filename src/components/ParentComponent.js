@@ -11,8 +11,8 @@ export default function() {
 )
 
 
-  handleChange = event => {
-  setState({
+  const handleChange = event => {
+    setState({
       [event.target.name]: event.target.value
     })
   }
