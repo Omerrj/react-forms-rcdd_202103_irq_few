@@ -1,14 +1,12 @@
 import React from 'react';
 
-export default {
-  render() {
+export default function({formData}) {
     return (
       <div>
-        <h1>{this.props.formData.firstName}</h1>
-        <h1>{this.props.formData.lastName}</h1>
+        <h1>{firstName}</h1>
+        <h1>{lastName}</h1>
       </div>
     )
-  }
 }
 
 export default DisplayData
