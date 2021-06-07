@@ -8,5 +8,3 @@ export default function({formData}) {
       </div>
     )
 }
-
-export default DisplayData
