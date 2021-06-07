@@ -12,7 +12,7 @@ export default function() {
 
 
   handleChange = event => {
-    this.setState({
+  setState({
       [event.target.name]: event.target.value
     })
   }
