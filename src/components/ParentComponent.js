@@ -17,17 +17,16 @@ export default function() {
     })
   }
 
-  render() {
     return (
       <div>
         <Form
-          formData={this.state}
-          handleChange={this.handleChange}
+          formData={state}
+          handleChange={handleChange}
         />
-        <DisplayData formData={this.state} />
+        <DisplayData formData={state} />
       </div>
     )
-  }
+
 }
 
 export default ParentComponent;
